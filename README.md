@@ -4,3 +4,6 @@
 copy manifest to .repo/local_manifests
 
      repo sync --force-sync
+
+credits:
+[Decatf](https://github.com/decatf/)
