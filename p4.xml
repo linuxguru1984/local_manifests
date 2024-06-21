@@ -39,7 +39,7 @@
 
     <project path="art" name="android_art" remote="alexoid1linuxoid" revision="aosp-8.1-dev" />
     <project path="bionic" name="android_bionic" remote="alexoid1linuxoid" revision="aosp-8.1-dev" />
-    <project path="frameworks/av" name="android_frameworks_av" remote="alexoid1linuxoid" revision="aosp-8.1-dev" />
+    <project path="frameworks/av" name="platform_frameworks_av" remote="alexoid1linuxoid" revision="aosp-8.1-dev" />
     <project path="frameworks/base" name="platform_frameworks_base" remote="alexoid1linuxoid" revision="aosp-8.1-dev" />
     <project path="frameworks/native" name="platform_frameworks_native" remote="alexoid1linuxoid" revision="aosp-8.1-dev" />
     <project path="frameworks/opt/net/wifi" name="android_frameworks_opt_net_wifi" remote="alexoid1linuxoid" revision="aosp-8.1-dev" />
