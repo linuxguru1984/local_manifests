@@ -1,5 +1,6 @@
 # download:
-     repo init -u https://github.com/alexoid1linuxoid/local_manifests.git -b aosp-8.1.0_p4
+     repo init -u https://android.googlesource.com/platform/manifest -b android-8.1.0_r52
 
+copy manifest to .repo/local_manifests
 
-     repo sync
+     repo sync --force-sync
