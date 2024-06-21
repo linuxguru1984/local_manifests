@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-    <remote fetch="git://github.com/omnirom" name="omnirom" />
-    <remote fetch="git://github.com/alexoid1linuxoid/" name="alexoid1linuxoid" />
+    <remote fetch="https://github.com/omnirom" name="omnirom" />
+    <remote fetch="https://github.com/alexoid1linuxoid/" name="alexoid1linuxoid" />
 
     <remove-project name="platform/build" />
     <project path="build" name="android_build" remote="omnirom" revision="android-8.1" />
