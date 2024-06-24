@@ -12,6 +12,8 @@
         <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
     </project>
 
+    <project path="vendor/omni" name="android_vendor_omni" remote="omnirom" revision="android-8.1" />
+
     <!--  -->
     <!-- Devices -->
     <!--  -->
