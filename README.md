@@ -10,7 +10,7 @@
 
      . build/envsetup.sh
      lunch p4wifi-userdebug
-     mka bacon -j1
+     mka bacon
      
 credits:
 [Decatf](https://github.com/decatf/)
