@@ -4,11 +4,15 @@
 
      git clone https://github.com/alexoid1linuxoid/local_manifests.git .repo/local_manifests -b aosp-8.1.0_p4
 
-     repo sync --force-sync
+     git config --global http.version HTTP/1.1
+
+     repo sync 
      
-After that, if there are any errors use this command
+# build:
 
-     repo sync -j1 --fail-fast
-
+     . build/envsetup.sh
+     lunch p4wifi-userdebug
+     mka bacon -j2
+     
 credits:
 [Decatf](https://github.com/decatf/)
