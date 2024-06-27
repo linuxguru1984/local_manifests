@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-    <remote fetch="http://github.com/omnirom" name="omnirom" />
     <remote fetch="http://github.com/alexoid1linuxoid/" name="alexoid1linuxoid" />
 
     <remove-project name="platform/build" />
-    <project path="build" name="android_build" remote="omnirom" revision="android-8.1" />
+    <project path="build" name="android_build" remote="alexoid1linuxoid" revision="android-8.1" />
 
     <remove-project name="platform/build/soong" />
     <project path="build/soong" name="android_build_soong" remote="alexoid1linuxoid" revision="aosp-8.1-dev" >
@@ -12,7 +11,7 @@
         <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
     </project>
 
-    <project path="vendor/omni" name="android_vendor_omni" remote="omnirom" revision="android-8.1" />
+    <project path="vendor/omni" name="android_vendor_omni" remote="alexoid1linuxoid" revision="android-8.1" />
 
     <!--  -->
     <!-- Devices -->
@@ -60,7 +59,7 @@
     <!--  -->
     <!-- App additions -->
     <!--  -->
-    <project path="packages/apps/Apollo" name="android_packages_apps_Apollo" remote="omnirom" revision="android-7.1" />
+    <project path="packages/apps/Apollo" name="android_packages_apps_Apollo" remote="alexoid1linuxoid" revision="android-7.1" />
 
     <!--  -->
     <!-- App removal -->
