@@ -4,15 +4,13 @@
 
      git clone https://github.com/alexoid1linuxoid/local_manifests.git .repo/local_manifests -b aosp-8.1.0_p4
 
-     git config --global http.version HTTP/1.1
-
-     repo sync 
+     repo sync -j1
      
 # build:
 
      . build/envsetup.sh
      lunch p4wifi-userdebug
-     mka bacon -j2
+     mka bacon -j1
      
 credits:
 [Decatf](https://github.com/decatf/)
