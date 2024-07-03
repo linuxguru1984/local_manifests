@@ -4,7 +4,7 @@
 
      git clone https://github.com/alexoid1linuxoid/local_manifests.git .repo/local_manifests -b aosp-8.1.0_p4
 
-     repo sync -j1
+     repo sync --force-sync -j1
      
 # build:
 
