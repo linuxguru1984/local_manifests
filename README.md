@@ -9,6 +9,6 @@
 # Build:
     . build/envsetup.sh
      lunch lineage_a33x-userdebug
-     mka bacon
+     mka bacon -j1
 
 credits: [Samsung Exynos 1280 devs](https://github.com/s5e8825)
