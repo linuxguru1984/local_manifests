@@ -1,5 +1,5 @@
 # Download:
-    repo init --depth=1 -u https://github.com/LineageOS/android.git -b lineage-20.0 --git-lfs
+    repo init -u https://github.com/LineageOS/android.git -b lineage-20.0 --git-lfs
     git clone https://github.com/linuxguru1984/local_manifests.git .repo/local_manifests -b lineage-20-a33x
     repo sync -j1
 # Zram(recommended):
